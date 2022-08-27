@@ -1,0 +1,46 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React Boilerplate",
+  "author": {
+    "YOU": "you@you.com",
+    "email": "devmikellc@gmail.com",
+    "name": "Michael",
+    "url": "https://mikeadebisi.com"
+  },
+  "keywords": [
+    "react",
+    "starter",
+    "Boilerplate"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@craco/craco": "^6.4.5",
+    "@reduxjs/toolkit": "^1.8.5",
+    "antd": "^4.22.8",
+    "dayjs": "^1.11.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-redux": "^8.0.2",
+    "react-scripts": "4.0.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "eject": "craco eject",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
