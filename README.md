@@ -10,5 +10,19 @@ This is a barebone boiler plate for personal react project
 - Craco - to customize CRA configuration.
 - Dayjs - For easy date manipulation
 
+#### HOW TO USE
+First clone the repo
+```
+git clone https://github.com/super-devmike/breact.git
+```
+Install all dependencies
+```
+yarn install
+```
+Start development server
+```
+yarn start
+```
+
 
 ***UNLICENSED**
