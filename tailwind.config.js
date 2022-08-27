@@ -4,17 +4,10 @@ module.exports = {
   },
   darkMode: 'media', // or 'media' or 'class'
   theme: {
-    extend: {
-      fontFamily: {
-        sans: ['Open Sans'],
-      },
-      gridTemplateColumns: {
-        '1/5': '1fr 5fr',
-      },
-    },
+    extend: {},
   },
   variants: {
     extend: {},
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [],
 };

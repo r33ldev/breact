@@ -1,6 +1,6 @@
 module.exports = {
   style: {
-    postcss: {
+    postCSSOptions: {
       plugins: [require('tailwindcss'), require('autoprefixer')],
     },
   },

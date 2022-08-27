@@ -1,8 +1,8 @@
-import { combineReducer, configureStore } from '@reduxjs/toolkit';
+import { combineReducers, configureStore } from '@reduxjs/toolkit';
 import appslice from './appslice';
 import { loadState } from './localStorage';
 
-const appReducer = combineReducer({
+const appReducer = combineReducers({
   app: appslice,
 });
 

@@ -1,18 +1,18 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  eventModalIsOpen: false,
+  data: {},
 };
 
 const appSlice = createSlice({
   name: 'app',
   initialState,
   reducers: {
-    openEventModal(state) {
-      state.eventModalIsOpen = true;
+    setAppData(state,action) {
+      state.data = action.payload;
     },
-    closesEventModal(state) {
-      state.eventModalIsOpen = false;
+    clearAppData(state) {
+      state.data = {};
     },
   },
 });
