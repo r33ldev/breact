@@ -2,6 +2,20 @@
   "name": "breact",
   "version": "0.1.0",
   "private": true,
+  "description": "React Boilerplate",
+  "author": {
+    "YOU": "you@you.com",
+    "email": "devmikellc@gmail.com",
+    "name": "Michael",
+    "url": "https://mikeadebisi.com"
+  },
+  "keywords": [
+    "react",
+    "starter",
+    "Boilerplate"
+  ],
+  "license": "UNLICENSED",
+  "main": "src/index.js",
   "dependencies": {
     "@craco/craco": "^6.4.5",
     "@reduxjs/toolkit": "^1.8.5",

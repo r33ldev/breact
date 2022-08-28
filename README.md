@@ -9,6 +9,7 @@ This is a barebone boiler plate for personal react project
 - TailwindCSS - utility classess
 - Craco - to customize CRA configuration.
 - Dayjs - For easy date manipulation
+- React Router 
 
 #### HOW TO USE
 First clone the repo
